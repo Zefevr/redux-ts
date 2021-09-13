@@ -5,7 +5,7 @@
 
 # Redux-TS App
 
-This repo contains a bolierplate for a React/Redux and Typescript application with a small search engine for npm packages. The main goal of this app is to play around and learn how to you Typescript with redux.
+This repo contains a bolierplate for a React/Redux and Typescript application with a small search engine for npm packages. The main goal of this app is to play around and learn how to use Typescript with Redux.
 
 ### Installation:
 

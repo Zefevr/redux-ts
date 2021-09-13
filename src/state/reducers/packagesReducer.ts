@@ -6,7 +6,16 @@ interface PackagesState {
   data: string[];
 }
 
-const reducer = (state: PackagesState, action: Action): PackagesState => {
+const initailState = {
+  loading: false,
+  error: null,
+  data: [],
+};
+
+const reducer = (
+  state: PackagesState = initailState,
+  action: Action
+): PackagesState => {
   switch (action.type) {
     case ActionType.SEARCH_PACKAGES:
       return { loading: true, error: null, data: [] };
